@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Habit-Tracker",
+    "slug": "Habit-Tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "dailycompanion",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.harshranjan98.HabitTracker"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "ed6ac61e-c5a5-43f3-991a-6e1794b5fe37"
+      }
+    }
+  }
+}

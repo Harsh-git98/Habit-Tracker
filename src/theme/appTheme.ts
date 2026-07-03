@@ -1,0 +1,61 @@
+export const appTheme = {
+  colors: {
+    background: '#070B16',
+    backgroundAlt: '#0D1324',
+    surface: '#101829',
+    surfaceElevated: '#18233A',
+    surfaceRaised: '#1E2940',
+    border: 'rgba(173, 193, 255, 0.14)',
+    borderStrong: 'rgba(173, 193, 255, 0.22)',
+    textPrimary: '#F6F8FF',
+    textSecondary: '#B2BDD9',
+    textMuted: '#7E8BAF',
+    accent: '#8ED6FF',
+    accentStrong: '#B8E6FF',
+    accentSoft: 'rgba(142, 214, 255, 0.14)',
+    success: '#67E2B4',
+    warning: '#FFD47A',
+    danger: '#FF8D8D',
+    tint: 'rgba(255, 255, 255, 0.04)',
+  },
+  typography: {
+    hero: 36,
+    title: 22,
+    subtitle: 16,
+    body: 15,
+    small: 12,
+  },
+  spacing: {
+    xs: 4,
+    sm: 8,
+    md: 16,
+    lg: 24,
+    xl: 32,
+    xxl: 40,
+  },
+  radius: {
+    sm: 10,
+    md: 16,
+    lg: 24,
+    xl: 32,
+    full: 9999,
+  },
+  shadows: {
+    card: {
+      shadowColor: '#000000',
+      shadowOpacity: 0.28,
+      shadowRadius: 24,
+      shadowOffset: { width: 0, height: 14 },
+      elevation: 12,
+    },
+    button: {
+      shadowColor: '#000000',
+      shadowOpacity: 0.22,
+      shadowRadius: 18,
+      shadowOffset: { width: 0, height: 10 },
+      elevation: 8,
+    },
+  },
+} as const;
+
+export type AppTheme = typeof appTheme;
